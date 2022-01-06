@@ -29,55 +29,39 @@ body {
 }
 
 form input, form label, form button {
-  display: block;
-  width: 100%;
-  margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 form input {
-  font-size: 24px;
-  height: 50px;
-  padding: 0 20px;
-}
-
-form input:focus {
-  outline: 1px solid var(--primary-color);
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
 }
 
 form button {
-  border: none;
-  background: var(--primary-color);
-  color: #fff;
-  font-size: 18px;
-  font-weight: 700px;
-  height: 50px;
-  cursor: pointer;
-  margin-top: 30px;
+    border: none;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
 }
 
 form button:hover {
-  background: var(--primary-color-darker);
-}
-
-/*Tabela*/
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-td, th {
-  border: 1px solid #dddddd;
-  text-align: center;
-  padding: 8px;
+    background: var(--primary-color);
 }
 
 /* Cor do resultado */
 
-.paragrafo-resultado, .bad {
-  background: rgb(109, 255, 182);
-  padding: 10px 20px;
+.paragrafot-resultado, .bad {
+    background: turquoise;
+    padding: 10px 20px;
 }
 
 .bad {
-  background: rgb(255, 150, 150);
+    background: rgb(255, 150, 150);
 }
