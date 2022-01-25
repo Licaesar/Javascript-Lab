@@ -4,13 +4,14 @@ function falaOi() {
 }
 falaOi();
 
-// first-class objects (Objetos de primeira classe)
+// first-class objects (Objetos de primeira classe), tratar  uma função como uma variável 
 // Function expression, um variavel receber um função
 const souUmDado = function() {
     console.log('Sou um dado')
-}
+};
 
 function execultaFucao(funcao) {
+    console.log('Vou executar sua função abaixo');
     funcao();
 }
 execultaFucao(souUmDado);
